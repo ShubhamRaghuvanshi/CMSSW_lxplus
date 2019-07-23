@@ -1,0 +1,12 @@
+git init "localrepo"
+cd localrepo
+git config --global user.name "Shubham Raghuvanshi"
+git config --global user.email "raghuvanshi135@gmail.com"
+git remote add origin "git@github.com:ShubhamRaghuvanshi/CMSSW_lxplus.git"
+git pull origin master
+echo $1 
+cp ../$1 ./
+git add $1
+git commit -m "$1"
+git push origin master
+cd ../
