@@ -1,0 +1,4 @@
+git init "localrepo"
+cd localrepo
+git clone git@github.com:ShubhamRaghuvanshi/CMSSW_lxplus.git
+cd ../
